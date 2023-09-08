@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+:root {
+    /* color */
+    --color-kuning: #F9B943;
+    --color-hijau: #2E494B;
+}
+
+body {
+    margin: 0;
+    font-family: 'Katibeh', cursive;
+    background-color: var(--color-hijau);
+}
+
+.container-header {
+    max-width: 480px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    padding: 0 10px 0 10px;
+    max-width: 480px;
+}
+
+/* Header */
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--color-kuning);
+    text-decoration: underline;
+}
+
+.header .logo {
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 25% 0 0 25%;
+}
+
+.header .logo img {
+    width: 61px;
+}
+
+/* Konten 1 */
+.container .konten1 {
+    margin: 0 41px 0 41px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Konten 2 */
+
+.container .judulKonten2 {
+    margin-top: -25px;
+    transform: translateY(25px);
+    width: fit-content;
+    background-color: var(--color-kuning);
+    opacity: 0.85;
+    padding: 0 5px 0 5px;
+}
+
+.container .judulKonten2 .judul1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .judulKonten2 .judul2 {
+    font-size: 15px;
+    text-align: center;
+    transform: translateY(-7.5px);
+}
+
+.container .konten2 .isiKonten2 {
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 25px;
+    padding: 0.5px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.container .konten2 .isiKonten2 ul {
+    padding-left: 25px;
+}
+
+.container .konten2 .gambarKonten2 {
+    display: flex;
+    justify-content: end;
+    transform: translateY(-25px);
+}
+
+.container .konten2 .gambarKonten2 img {
+    width: 68px;
+    height: 104px;
+    transform: translateY(-98px);
+}
+
+/* Konten 3 */
+.konten3 {
+    margin-top: -70px;
+    background-color: var(--color-kuning);
+    padding-top: 5px;
+}
+
+.konten3 .container-konten3 .judulKonten3 {
+
+    margin: -10px auto 0px;
+    width: fit-content;
+    background-color: white;
+    padding: 0 10px 0 10px;
+    border-radius: 75px;
+}
+
+.konten3 .container-konten3 .judulKonten3 .judul1 {
+    font-size: 30px;
+    text-align: center;
+    transform: translateY(-3.5px);
+}
+
+.konten3 .container-konten3 .judulKonten3 .judul2 {
+    font-size: 15px;
+    text-align: center;
+    transform: translateY(-10.5px);
+}
+
+.container-konten3 {
+    margin: auto;
+    padding: 0 50px 0 50px;
+    max-width: 480px;
+}
+
+.konten3 .container-konten3 .isiKonten3 {
+    margin-left: -35px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.konten3 .container-konten3 .isiKonten3 ul {
+    list-style-type: none;
+}
+
+/* Konten 4 */
+#logoCTC {
+    width: 30px;
+    transform: translate(-65px, -15px);
+    left: 100px;
+    padding: 2.5px;
+    border-radius: 10px;
+}
+
+#logoMBN {
+    width: 30px;
+    transform: translate(-65px, -15px);
+    left: 100px;
+    padding: 2.5px;
+    border-radius: 10px;
+}
+
+#logoKOMED {
+    width: 30px;
+    transform: translate(-65px, -15px);
+    left: 100px;
+    padding: 2.5px;
+    border-radius: 10px;
+}
+
+@media only screen and (width >=420px) {
+    #logoCTC {
+        transform: translate(-95px, -15px);
+    }
+
+    #logoMBN {
+        transform: translate(-95px, -15px);
+    }
+
+    #logoKOMED {
+        transform: translate(-95px, -15px);
+    }
+}
+
+.container-konten4 .konten4 .judulKonten4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-konten4 .konten4 .judulKonten4 p {
+    margin: 15px 0;
+}
+
+.container-konten4 .konten4 .isi1 {
+    background-color: var(--color-kuning);
+    font-size: 11px;
+    text-align: center;
+    border-radius: 21px;
+    width: 48%;
+}
+
+.container-konten4 .konten4 .containerisi1 {
+    display: flex;
+    justify-content: start;
+}
+
+.container-konten4 .konten4 .isi1 p {
+    margin: 0 0 -20px 0;
+    padding: 3px 5px;
+    color: white;
+    transform: translateY(-25px);
+}
+
+.container-konten4 .konten4 .isi2 {
+    background-color: var(--color-kuning);
+    font-size: 11px;
+    text-align: center;
+    border-radius: 21px;
+    width: 48%;
+    transform: translateY(-5px);
+}
+
+.container-konten4 .konten4 .containerisi2 {
+    display: flex;
+    justify-content: end;
+}
+
+.container-konten4 .konten4 .isi2 p {
+    color: white;
+    margin: 0 0 -20px 0;
+    transform: translateY(-25px);
+    padding: 3px 5px;
+}
+
+.container-konten4 .konten4 .isi3 {
+    background-color: var(--color-kuning);
+    font-size: 11px;
+    text-align: center;
+    border-radius: 21px;
+    width: 48%;
+    transform: translateY(-10px)
+}
+
+.container-konten4 .konten4 .containerisi3 {
+    display: flex;
+    justify-content: start;
+}
+
+.container-konten4 .konten4 .isi3 p {
+    color: white;
+    margin: 0 0 -20px 0;
+    transform: translateY(-25px);
+    padding: 3px 5px;
+}
+
+.container-konten4 {
+    margin: auto;
+    padding: 0 30px 0 30px;
+    max-width: 480px;
+}
+
+/* Konten 5 */
+.konten5 {
+    background-color: var(--color-kuning);
+}
+
+.container-gambar-konten5 {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.slider {
+    max-width: 460px;
+    width: 300px;
+    height: 107px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+}
+
+.list img {
+    max-width: 460px;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-kuning);
+    color: white;
+    border: none;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+.dots {
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots li {
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dots li.active {
+    width: 10px;
+    transition: 1s;
+}
+
+.isiKonten5 {
+    text-align: center;
+    max-width: 357px;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+/* Konten 6 */
+.konten6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 15px 0 15px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.slider-konten6 {
+    /* max-width: 460px; */
+    width: 151px;
+    height: 177px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.list-konten6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+}
+
+.list-konten6 img {
+    /* max-width: 460px; */
+    width: 151px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons-konten6 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-konten6 button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-kuning);
+    color: white;
+    border: none;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+.dots-konten6 {
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-konten6 li {
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dots-konten6 li.active-konten6 {
+    width: 10px;
+    transition: 1s;
+}
+
+/* Konten 6 */
+.konten7 {
+    background-color: var(--color-kuning);
+}
+
+.container-gambar-konten7 {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.slider7 {
+    max-width: 460px;
+    width: 300px;
+    height: 107px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.list7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+}
+
+.list7 img {
+    max-width: 460px;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons7 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons7 button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-kuning);
+    color: white;
+    border: none;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+.dots7 {
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots7 li {
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dots7 li.active7 {
+    width: 10px;
+    transition: 1s;
+}
+
+.isiKonten7 {
+    text-align: center;
+    max-width: 357px;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 13px;
+    color: white;
+}
+
+footer>.ig,
+footer>.tk {
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+}
+
+footer>.ig>svg,
+footer>.tk>svg {
+    transform: translateY(2.25px);
+}

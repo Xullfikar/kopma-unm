@@ -59,7 +59,7 @@ body {
 /* Konten 2 */
 
 .container .judulKonten2 {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     transform: translateY(25px);
     width: fit-content;
     background-color: var(--color-kuning);

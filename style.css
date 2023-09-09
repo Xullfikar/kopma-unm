@@ -75,7 +75,7 @@ body {
 .container .judulKonten2 .judul2 {
     font-size: 15px;
     text-align: center;
-    transform: translateY(-7.5px);
+    /* transform: translateY(-7.5px); */
 }
 
 .container .konten2 .isiKonten2 {

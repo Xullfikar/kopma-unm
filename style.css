@@ -120,13 +120,13 @@ body {
 .konten3 .container-konten3 .judulKonten3 .judul1 {
     font-size: 30px;
     text-align: center;
-    transform: translateY(-3.5px);
+    /* transform: translateY(-3.5px); */
 }
 
 .konten3 .container-konten3 .judulKonten3 .judul2 {
     font-size: 15px;
     text-align: center;
-    transform: translateY(-10.5px);
+    /* transform: translateY(-10.5px); */
 }
 
 .container-konten3 {

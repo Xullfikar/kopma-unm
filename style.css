@@ -59,7 +59,6 @@ body {
 /* Konten 2 */
 
 .container .judulKonten2 {
-    /* margin-top: -25px; */
     transform: translateY(25px);
     width: fit-content;
     background-color: var(--color-kuning);
@@ -75,7 +74,6 @@ body {
 .container .judulKonten2 .judul2 {
     font-size: 15px;
     text-align: center;
-    /* transform: translateY(-7.5px); */
 }
 
 .container .konten2 .isiKonten2 {
@@ -98,7 +96,7 @@ body {
 }
 
 .container .konten2 .gambarKonten2 img {
-    width: 68px;
+    width: 104px;
     height: 104px;
     transform: translateY(-98px);
 }
@@ -153,7 +151,6 @@ body {
 #logoCTC {
     width: 30px;
     transform: translate(-65px, -15px);
-    left: 100px;
     padding: 2.5px;
     border-radius: 10px;
 }
@@ -161,7 +158,6 @@ body {
 #logoMBN {
     width: 30px;
     transform: translate(-65px, -15px);
-    left: 100px;
     padding: 2.5px;
     border-radius: 10px;
 }
@@ -169,7 +165,6 @@ body {
 #logoKOMED {
     width: 30px;
     transform: translate(-65px, -15px);
-    left: 100px;
     padding: 2.5px;
     border-radius: 10px;
 }
@@ -548,11 +543,6 @@ footer>.tk {
     display: flex;
     align-items: center;
     gap: 2.5px;
-}
-
-footer>.ig>svg,
-footer>.tk>svg {
-    transform: translateY(2.25px);
 }
 
 /* Button Daftar */

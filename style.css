@@ -68,6 +68,7 @@ body {
 }
 
 .container .judulKonten2 .judul1 {
+    padding-top: 25px;
     font-size: 30px;
     text-align: center;
 }
